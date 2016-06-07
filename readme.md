@@ -25,14 +25,12 @@ OK, here we go.
 ## Introduction and Goals
 
 The goal of my project is to sort out and make some meaning out of DropSeq Single Cell Sequencing Data.
-First the quality control of the reads will be performed and reading errors will be discarded.
-Following that, transcriptomic data coming from thousands of cells will be sorted according to their barcodes so the transcriptome of individual cells will be gathered.
-Then the cells will be clustered according to their transcriptome and the identity of the clusters will be assessed depending on the presence of marker genes.
+DropSeq generates RNAseq reads from a lot of cells in a way that each cell has a sequence barcode and reads of every cells is starting with this unique barcode. This project is focusing on to generate a workflow to sort reads with the same barcode together and generate individual cell transcriptome libraries. 
 
 I'll use Python to sort the sequence reads and generate libraries for individual cell transcriptomes.
-I have no idea what to use to cluster them according to their transcriptome:)
 
-Since the data available are enormously big, I'll use simulations.
+I will use the original DropSeq data generated presented in Macosco et al. 2015 (http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE63473)
+
 
 ## Methods
 
