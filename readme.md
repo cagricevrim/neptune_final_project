@@ -5,12 +5,9 @@
 ## Introduction and Goals
 
 The goal of my project is to sort out and make some meaning out of DropSeq Single Cell Sequencing Data.
-DropSeq generates RNAseq reads from a lot of cells in a way that each cell has a sequence barcode and reads of every cells is starting with this unique barcode. This project is focusing on to generate a workflow to sort reads with the same barcode together and generate individual cell transcriptome libraries. 
+DropSeq generates RNAseq reads from a lot of cells in a way that each cell has a sequence barcode and reads of every cells is starting with this unique barcode. This project is focusing on to generate a workflow that generate simulation of DropSeq reads.
 
-I'll use Python to sort the sequence reads and generate libraries for individual cell transcriptomes.
-
-I will use the original DropSeq data generated presented in Macosko et al. 2015 (http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE63473)
-
+I'll use Python to make a function that simulates DropSeq data. I'll generate a function (seqsim.py) that'd generate 100 different barcodes and 10000 reads each carrying one of those barcodes.
 
 ## Methods
 
