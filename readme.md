@@ -29,7 +29,8 @@ First the quality control of the reads will be performed and reading errors will
 Following that, transcriptomic data coming from thousands of cells will be sorted according to their barcodes so the transcriptome of individual cells will be gathered.
 Then the cells will be clustered according to their transcriptome and the identity of the clusters will be assessed depending on the presence of marker genes.
 
-The methods I will use to do this are..
+I'll use Python to sort the sequence reads and generate libraries for individual cell transcriptomes.
+I have no idea what to use to cluster them according to their transcriptome:)
 
 Since the data available are enormously big, I'll use simulations.
 
