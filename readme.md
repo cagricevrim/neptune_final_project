@@ -1,7 +1,5 @@
 # Neptune Computational Biology - Final Project
 
-## Guidelines - you can delete this section before submission
-
 # DropSeq Data Analysis
 
 ## Introduction and Goals
@@ -11,7 +9,7 @@ DropSeq generates RNAseq reads from a lot of cells in a way that each cell has a
 
 I'll use Python to sort the sequence reads and generate libraries for individual cell transcriptomes.
 
-I will use the original DropSeq data generated presented in Macosko _et al_. 2015 (http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE63473)
+I will use the original DropSeq data generated presented in Macosko et al. 2015 (http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE63473)
 
 
 ## Methods
