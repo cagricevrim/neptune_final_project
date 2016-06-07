@@ -20,15 +20,18 @@ Some guidelines and tips:
 
 OK, here we go.
 
-# Drop Seq Data Analysis
+# DropSeq Data Analysis
 
 ## Introduction and Goals
 
-The goal of my project is to answer the question, What is...?
+The goal of my project is to sort out and make some meaning out of DropSeq Single Cell Sequencing Data.
+First the quality control of the reads will be performed and reading errors will be discarded.
+Following that, transcriptomic data coming from thousands of cells will be sorted according to their barcodes so the transcriptome of individual cells will be gathered.
+Then the cells will be clustered according to their transcriptome and the identity of the clusters will be assessed depending on the presence of marker genes.
 
-The methods I will use to do this are...
+The methods I will use to do this are..
 
-The data I will use are (my own data/ data publicly available at YYY/ simulations)
+Since the data available are enormously big, I'll use simulations.
 
 ## Methods
 
