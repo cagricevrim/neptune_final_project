@@ -23,7 +23,7 @@ def seqsim (A, B, D, C):
 
 B = int(raw_input ('Barcode size '))
 A = int(raw_input ('Number of barcodes '))
-C = int(raw_input ('Lenght of mRNA '))
+C = int(raw_input ('Length of mRNA '))
 D = int(raw_input ('Number of mRNAs reads '))
 
 seqsim (A, B, D, C)
@@ -31,6 +31,7 @@ seqsim (A, B, D, C)
 print ('Simulations are saved in SeqSimulation.txt in your directory')
 
 H = raw_input ( 'Would you like the sequences to be sorted according to barcodes Y/N ? ' )
+H = H.upper ()
 
 def seqsorter ( X ):
 	f = open ( X, 'r' )
