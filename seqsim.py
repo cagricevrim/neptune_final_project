@@ -10,7 +10,7 @@ for i in range (100):
 	Barcode = ''.join ( Barcode )
 	Barcodes.append ( Barcode )
 
-for i in range (5):
+for i in range (10000):
 	mRNA = [ random.choice (Bases) for i in range (1000) ]
 	mRNA = ''.join (mRNA)
 	Read = ( random.choice(Barcodes) + mRNA)
