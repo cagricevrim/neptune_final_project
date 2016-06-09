@@ -1,9 +1,15 @@
 #! /usr/bin/env python
-import re
 
-f = open ('seqs.txt', 'r')
+X = raw_input ( 'Name of the file ')
+f = open ( X, 'r' )
+file = open ( 'SortedSeq.txt', 'w' )
 
-lines = f.readlines()
-print(sorted(lines))
+lines = f.readlines ()
+Y = sorted ( lines )
+for item in Y:
+	file.write ( item )
+
 f.close()
+file.close()
 
+print ( 'The Sequences are sorted and saved in SortedSeq.txt in your directory')
