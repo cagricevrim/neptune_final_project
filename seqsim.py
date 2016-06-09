@@ -11,9 +11,10 @@ for i in range (100):
 	Barcodes.append ( Barcode )
 
 for i in range (10000):
-	mRNA = [ random.choice (Bases) for i in range (1000) ]
+	mRNA = [ random.choice (Bases) for i in range (150) ]
 	mRNA = ''.join (mRNA)
 	Read = ( random.choice(Barcodes) + mRNA)
-	DropSeq.append (Read)
+	print (Read)
+#	DropSeq.append (Read)
 
-print(DropSeq)
+#print(DropSeq)
