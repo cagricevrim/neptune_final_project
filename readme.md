@@ -2,7 +2,7 @@
 
 # DropSeq Data Analysis
 
-![Figure 1 - DropSeq](../Drop-Seq.gif?raw=true)
+![Figure 1 - DropSeq](Drop-Seq.gif?raw=true)
 
 ## Introduction and Goal
 
