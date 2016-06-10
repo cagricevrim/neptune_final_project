@@ -7,7 +7,6 @@ def seqsim (A, B, D, C):
 	Bases = list ( 'ATGC' )
 	Barcodes = []
 	DropSeq = []
-#	UMIList = []
 
 	for i in range (A):
 		Barcode = [ random.choice ( Bases ) for i in range (B) ]									#random.choice makes a list of (B) items from the Bases list.
