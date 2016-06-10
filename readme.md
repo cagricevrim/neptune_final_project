@@ -1,5 +1,5 @@
 # Neptune Computational Biology - Final Project
-
+![DropSeq](./Drop-Seq.gif?raw=true)
 # DropSeq Data Analysis
 
 ## Introduction and Goals
@@ -15,7 +15,7 @@ The tools I used were... See analysis files at (links to analysis files).
 
 ## Results
 
-![Figure 1](./Figure1.png?raw=true)
+
 
 In Figure 1...
 
