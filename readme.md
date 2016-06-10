@@ -1,11 +1,10 @@
 # Neptune Computational Biology - Final Project
 
-
 # DropSeq Data Analysis
 
 ![Figure 1 - DropSeq](./Drop-Seq.gif?raw=true)
 
-## Introduction and Goals
+## Introduction and Goal
 
 The goal of my project is to sort out and make some meaning out of DropSeq Single Cell Sequencing Data.
 DropSeq generates RNAseq reads from a lot of cells in a way that each cell has a sequence barcode and reads of every cells is starting with this unique barcode. This project is focusing on to generate a workflow that generate simulation of DropSeq reads.
