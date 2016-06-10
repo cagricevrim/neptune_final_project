@@ -1,6 +1,9 @@
 # Neptune Computational Biology - Final Project
-![DropSeq](./Drop-Seq.gif?raw=true)
+
+
 # DropSeq Data Analysis
+
+![Figure 1 - DropSeq](./Drop-Seq.gif?raw=true)
 
 ## Introduction and Goals
 
