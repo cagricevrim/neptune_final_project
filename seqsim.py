@@ -7,16 +7,19 @@ def seqsim (A, B, D, C):
 	Bases = list ( 'ATGC' )
 	Barcodes = []
 	DropSeq = []
+#	UMIList = []
 
 	for i in range (A):
 		Barcode = [ random.choice ( Bases ) for i in range (B) ]									#random.choice makes a list of (B) items from the Bases list.
 		Barcode = ''.join ( Barcode ) 																#Join takes the items of this list and generate a string via concatenating them
-		Barcodes.append ( Barcode ) 																#Adding each barcode (string) to the list of Barcodes as an item.
+		Barcodes.append ( Barcode )																	#Adding each barcode (string) to the list of Barcodes as an item.
 
-	for i in range (D):
-		mRNA = [ random.choice (Bases) for i in range (C) ]											#Choosing random bases and make a list
-		mRNA = ''.join (mRNA)																		#Concatenating the bases and generating a sequence (string)
-		Read = ( random.choice(Barcodes) + mRNA + '\n')												#choosing a random barcode and concatenating it with mRNA generated and puting a line ending 
+	for i in range (D):																				#To make D UMI+mRNAs
+		UMI = [ random.choice (Bases ) for i in range (8) ]											#randomly choosing 8 bases to make an UMI
+		UMI = ''.join ( UMI )																		#Joining those 8 bases to make a string
+		mRNA = [ random.choice (Bases) for i in range (C) ]											#Choosing C random bases to make an mRNA
+		mRNA = ''.join (mRNA)																		#Concatenating the bases and generating a mRNA sequence (string)
+		Read = ( random.choice(Barcodes) + UMI + mRNA + '\n')										#choosing a random barcode and concatenating it with the UMI and the mRNA generated and puting a line ending 
 		file.write ( Read )																			#then writing it in the file (SeqSimulation.txt)
 
 	file.close()

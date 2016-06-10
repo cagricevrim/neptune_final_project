@@ -6,10 +6,12 @@
 
 ## Introduction and Goal
 
-The goal of my project is to sort out and make some meaning out of DropSeq Single Cell Sequencing Data.
-DropSeq generates RNAseq reads from a lot of cells in a way that each cell has a sequence barcode and reads of every cells is starting with this unique barcode. This project is focusing on to generate a workflow that generate simulation of DropSeq reads.
+DropSeq is a new single cell RNAseq method. The power of the technique is it allows you to sequence single cells and assess their identity after sequencing. So it is not required to sort the cells before sequencing.
 
-I'll use Python to make a function that simulates DropSeq data. I'll generate a function (seqsim.py) that'd generate 100 different barcodes and 10000 reads each carrying one of those barcodes.
+The goal of my project is to sort out and make some meaning out of DropSeq Single Cell Sequencing Data. Since I don't have any DropSeq data, I just made a simulator that will simulate DropSeq reads.
+DropSeq generates RNAseq reads from a lot of cells in a way that each cell has a 12 base sequence barcode and mRNA reads of each cells is starting with its unique barcode. After the barcode there is a 8 base long Unique Moleculer Identifier (UMI) which is unique for every single mRNA molecule and then ~50base long read of the mRNA.
+
+I'll use Python to make a function that simulates DropSeq data. I'll generate a function (seqsim.py) that'd generate 100 different barcodes and 10000 UMI+mRNA reads each carrying one of those barcodes.
 
 ## Methods
 
